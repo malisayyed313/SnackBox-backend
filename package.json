@@ -1,5 +1,5 @@
 {
-  "name": "bistro-oasis-backend",
+  "name": "SnackBox",
   "version": "1.0.0",
   "description": "Backend server for Bistro Oasis Management",
   "main": "server.js",
