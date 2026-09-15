@@ -30,7 +30,7 @@ app.use(limiter);
 
 // 1. Health Check
 app.get('/', (req, res) => {
-  res.json({ success: true, message: "Bistro Oasis Backend is running securely!" });
+  res.json({ success: true, message: "SnackBox is running securely!" });
 });
 
 // 2. Admin PIN Verification (Includes Master PIN logic)
