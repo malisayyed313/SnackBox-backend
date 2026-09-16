@@ -4,8 +4,9 @@ const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+app.set('trust proxy', 1);
 
+const PORT = process.env.PORT || 5000;
 const MASTER_PIN = process.env.MASTER_PIN || '9999';
 let currentAdminPin = process.env.ADMIN_PIN || '1234';
 
